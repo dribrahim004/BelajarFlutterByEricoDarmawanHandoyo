@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Fliexible Layout"),
+          title: const Text("Fliexible Layout"),
         ),
         body: Column(
           children: <Widget>[
@@ -23,19 +23,19 @@ class MyApp extends StatelessWidget {
                   Flexible(
                       flex: 1,
                       child: Container(
-                        margin: EdgeInsets.all(5),
+                        margin: const EdgeInsets.all(5),
                         color: Colors.red,
                       )),
                   Flexible(
                       flex: 1,
                       child: Container(
-                        margin: EdgeInsets.all(5),
+                        margin: const EdgeInsets.all(5),
                         color: Colors.green,
                       )),
                   Flexible(
                       flex: 1,
                       child: Container(
-                        margin: EdgeInsets.all(5),
+                        margin: const EdgeInsets.all(5),
                         color: Colors.purple,
                       )),
                 ],
