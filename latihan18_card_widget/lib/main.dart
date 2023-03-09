@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.green,
         body: Container(
-          margin: EdgeInsets.all(10),
+          margin: const EdgeInsets.all(10),
           child: ListView(
             children: <Widget>[
               buildCard(Icons.account_box, "Account Box"),
-              buildCard(Icons.adb, "Serangga Android")
+              buildCard(Icons.adb, "Android Box")
             ],
           ),
         ),
