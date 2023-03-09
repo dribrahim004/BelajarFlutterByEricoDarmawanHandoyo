@@ -32,7 +32,9 @@ class MyApp extends StatelessWidget {
         children: <Widget>[
           Container(
             margin: EdgeInsets.all(5),
-            child: Icon(iconData, color: Colors.green),
+            child: Icon(
+              iconData, //color: Colors.green
+            ),
           ),
           Text(text)
         ],
