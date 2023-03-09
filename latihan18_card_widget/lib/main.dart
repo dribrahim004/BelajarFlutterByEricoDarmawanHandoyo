@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.all(5),
+            margin: const EdgeInsets.all(5),
             child: Icon(
               iconData, //color: Colors.green
             ),
